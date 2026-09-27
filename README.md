@@ -7,6 +7,8 @@ This project evaluates transactional e-commerce data using **MySQL** to analyze 
 
 **1.1: Total Revenue**
 
+**SQL Query**
+
 SELECT 
     DATE_FORMAT(o.order_date, '%Y-%m') AS order_month,
     SUM(p.amount) AS total_revenue
@@ -20,6 +22,8 @@ GROUP BY 1
 - **Business Insight**: Shows good sign of the beginning of seasonal strength or promotional campaign success during this month.
 
 **1.2: Top 10 Best-Selling Products by Revenue**
+
+**SQL Query**
 
 SELECT 
     p.product_id,
