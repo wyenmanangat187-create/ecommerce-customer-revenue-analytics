@@ -3,6 +3,16 @@
 ## Executive Summary
 This project evaluates transactional e-commerce data using **MySQL** to analyze revenue performance, product demand distributions, customer value segments, and payment preferences. The analytical findings provide actionable guidance for sales optimization, inventory management, and fulfillment quality control.
 
+## Data Source & Schema
+The dataset used in this analysis consists of 1-month transactional e-commerce records (`ecommerce_db`) covering **February 2025**. 
+
+* **Primary Tables:**
+  * `orders`: Order ID, customer ID, order date, and status.
+  * `order_items`: Order ID, product ID, item quantity, and unit price.
+  * `products`: Product ID, product name, category, and list price.
+  * `payments`: Payment ID, order ID, payment mode, and total transaction amount.
+* **Scope:** Tailored for basket-level complexity, category revenue performance, and payment preference distributions across short-horizon transactional data.
+
 **DOMAIN 1: REVENUE & SALES TRENDS**
 
 **1.1: Total Revenue**
