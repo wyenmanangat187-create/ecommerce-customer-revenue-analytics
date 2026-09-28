@@ -7,10 +7,11 @@ This project evaluates transactional e-commerce data using **MySQL** to analyze 
 The dataset used in this analysis consists of 1-month transactional e-commerce records (`ecommerce_db`) covering **February 2025**. 
 
 * **Primary Tables:**
+  * `customers`: customers ID, name, email, city, and signup date
   * `orders`: Order ID, customer ID, order date, and status.
-  * `order_items`: Order ID, product ID, item quantity, and unit price.
-  * `products`: Product ID, product name, category, and list price.
-  * `payments`: Payment ID, order ID, payment mode, and total transaction amount.
+  * `order_items`: Order Item ID, order ID, product ID, and quantity.
+  * `products`: Product ID, product name, category, list price, and stock.
+  * `payments`: Payment ID, order ID, payment mode, amount, and payment_date.
 * **Scope:** Tailored for basket-level complexity, category revenue performance, and payment preference distributions across short-horizon transactional data.
 
 **DOMAIN 1: REVENUE & SALES TRENDS**
