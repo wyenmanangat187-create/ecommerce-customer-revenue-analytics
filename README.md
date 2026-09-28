@@ -21,6 +21,7 @@ GROUP BY 1
 
 - Monthly revenue peaked at $148,575 in February 2025.
 - **Business Insight**: Shows good sign of the beginning of seasonal strength or promotional campaign success during this month.
+  
 
 **1.2: Top 10 Best-Selling Products by Revenue**
 
@@ -44,6 +45,7 @@ LIMIT 10;
 - **Financial Value**: The "Python Hoodie" ($23,988) and "AI Nerd T-Shirt" ($19,188) lead the pack in terms of financial value.
 - Developer-themed apparel products are ones that can generate solid margins and are effective key revenue generators with the high ticket apparel items.
 
+
 **1.3: Top Selling Products by Volume**
 
 **SQL Query**
@@ -63,6 +65,7 @@ LIMIT 10;
 
 - Lower-cost merchandise leads unit sales, with the "DSA Notebook", "SQL Cheat Sheet", and "Terminal Stickers" each moving 18 units.
 - Low-cost stationery and accessories act as primary add-on items, driving conversion rates and overall transaction frequency.
+
 
 **DOMAIN 2: CUSTOMER BEHAVIOR & RETENTION**
 
@@ -90,6 +93,7 @@ ORDER BY total_spent DESC;
 - Highly engaged accounts: Customer 8 ($22,386) and Customer 1 ($17,479) have completed 7 orders each and also the top spenders in the month of february.
 - A concentrated group of VIP buyers drives platform profitability, highlighting strong brand loyalty among core power users.
 
+
 **2.2 Average Basket Size and Item Revenue per Category**
 
 **SQL Query**
@@ -110,6 +114,7 @@ ORDER BY category_aov DESC;
 
 - The highest Average Order Value ($12,764.57 AOV with 1.1 units per order) is seen in the category "Clothing" and the highest volume per cart (1.8 units per order, $3,852.00 AOV) is seen in "Stationery".
 - Clothing accounts for basket value, with the higher prices, while stationery accounts for items per transaction.
+
 
 **2.3 Basket Complexity (Single-Item vs. Multi-Item Buyers)**
 
@@ -137,6 +142,7 @@ GROUP BY 1;
 
 - All recorded orders (20/20) are multi item bundled purchases.
 - Customers are buying more than one product at a time, meaning basket density is high and organic cross-category interest.
+
 
 **2.4 Payment Method Usage by Price Tier**
 
