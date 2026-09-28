@@ -37,5 +37,12 @@ ORDER BY total_sales DESC
 
 LIMIT 10;
 
+<img width="361" height="277" alt="Screenshot 2026-09-24 023644" src="https://github.com/user-attachments/assets/053f1215-4bae-44a8-91b5-681cc8f3ebda" />
+
+**Financial Value**: The "Python Hoodie" ($23,988) and "AI Nerd T-Shirt" ($19,188) lead the pack in terms of financial value.   
+
+
+
+
 
 
