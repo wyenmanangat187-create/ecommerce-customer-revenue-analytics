@@ -162,7 +162,7 @@ ORDER BY
     END, 
     total_transactions DESC;
 
-    <img width="583" height="182" alt="Screenshot 2026-09-24 024004" src="https://github.com/user-attachments/assets/35dbbd22-4601-4548-ba30-eb376bfff480" />
+<img width="583" height="182" alt="Screenshot 2026-09-24 024004" src="https://github.com/user-attachments/assets/35dbbd22-4601-4548-ba30-eb376bfff480" />
 
 - Instant digital payments via UPI lead transaction frequency across mid-tier purchases (42 transactions, $48,587 total spent). Credit Card usage dominates high-tier purchases by total dollar volume ($37,779 across 14 transactions).
 - Customers rely on frictionless payment methods like UPI for standard orders, while leaning on Credit Cards for larger purchases.
